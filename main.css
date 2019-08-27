@@ -1,16 +1,14 @@
-body, html {
-    height: 100%;
-    margin: 0%;
-}
 .bg {
-    background-image: url("assets/background.jpg");
-    height: 100%;
-
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url('assets/background.jpg') no-repeat center center fixed;
     background-size: cover;
 }
-#navbar {
-    background-color: black;
-    opacity: 0.5;
+
+.transparent {
+    background-color: rgba(45, 45, 64, 0.5);
+}
+
+.large {
+    font-size: 6vw;
+    opacity: 0.8;
+    margin-top: 30vh;
 }
