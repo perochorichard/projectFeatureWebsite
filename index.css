@@ -8,3 +8,8 @@ html {
 #section2 {
     height: 100vh;
 }
+
+#button-group a i {
+    font-size: 10vh;
+    padding: 0vw 7vw 0vw 7vw;
+}
