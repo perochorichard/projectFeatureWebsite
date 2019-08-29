@@ -1,6 +1,18 @@
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden; /*hides horizontal scrollbar*/
 }
+
+#bg {
+    background: url('assets/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: absolute;
+    height: 200vh; /*for #section1 and #section2*/
+    width: 100vw;
+    z-index: -1; /*place background element behind all other elements*/
+    transform: scale(1.1); /*hides white edges of blur*/
+}
+
 #section1 {
     height: 100vh;
 }
@@ -11,5 +23,6 @@ html {
 
 #button-group a i {
     font-size: 10vw;
-    padding: 0vw 7vw 0vw 7vw;
+    margin: 0vw 7vw 0vw 7vw;
+    color: white;
 }
