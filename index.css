@@ -3,14 +3,18 @@ html {
     overflow-x: hidden; /*hides horizontal scrollbar*/
 }
 
+#background-container {
+    position: fixed;
+    z-index: -1;
+}
+
 #bg {
-    background: url('assets/background.jpg') no-repeat center center fixed;
+    background: url('assets/background.jpg') no-repeat center center;
     background-size: cover;
-    position: absolute;
+    overflow: hidden;
     height: 200vh; /*for #section1 and #section2*/
     width: 100vw;
-    z-index: -1; /*place background element behind all other elements*/
-    transform: scale(1.1); /*hides white edges of blur*/
+    transform: scale(1.05);
 }
 
 #section1 {
